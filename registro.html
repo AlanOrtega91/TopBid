@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+  <div class="section_title">REGISTRO</div>
+  <div class="w-form">
+    <form data-name="Email Form" id="email-form" name="email-form">
+      <label for="field-4">Correo Electronico</label>
+      <input class="w-input" data-name="correo" id="field-4" maxlength="256" name="correo" placeholder="ejemplo@topbid.mx" required="required" type="email">
+      <label for="field-5">Contraseña</label>
+      <input class="w-input" data-name="contra" id="field-5" maxlength="256" name="contra" required="required" type="password">
+      <label for="contra-4">Repetir contraseña</label>
+      <input class="w-input" data-name="contra2" id="contra-4" maxlength="256" name="contra2" required="required" type="password">
+      <label for="nombre">Nombre</label>
+      <input class="w-input" data-name="nombre" id="nombre" maxlength="256" name="nombre" required="required" type="text">
+      <label for="apellido">Apellidos</label>
+      <input class="w-input" data-name="apellido" id="apellido" maxlength="256" name="apellido" required="required" type="text">
+      <label for="field-6">Referenciado por</label>
+      <input class="w-input" data-name="referencia" id="field-6" maxlength="256" name="referencia" required="required" type="text">
+      <label for="field">Fecha de Nacimiento</label>
+      <div class="w-clearfix">
+        <select class="register_day w-select" data-name="dia_nacimiento" id="dia_nacimiento" name="dia_nacimiento">
+          <option value="">00</option>
+          <option value="First">First Choice</option>
+          <option value="Second">Second Choice</option>
+          <option value="Third">Third Choice</option>
+        </select>
+        <select class="register_month w-select" data-name="mes_nacimiento" name="mes_nacimiento">
+          <option value="">Select one...</option>
+          <option value="First">First Choice</option>
+          <option value="Second">Second Choice</option>
+          <option value="Third">Third Choice</option>
+        </select>
+        <select class="register_year w-select" data-name="anio_nacimiento" name="anio_nacimiento">
+          <option value="">Select one...</option>
+          <option value="First">First Choice</option>
+          <option value="Second">Second Choice</option>
+          <option value="Third">Third Choice</option>
+        </select>
+      </div>
+      <label for="field">¿Cómo nos encontraste?</label>
+      <div class="w-radio">
+        <input class="w-radio-input" data-name="Radio 2" id="radio" name="radio-2" type="radio" value="Radio">
+        <label class="w-form-label" for="radio">Google</label>
+      </div>
+      <div class="w-radio">
+        <input class="w-radio-input" data-name="Radio 2" id="radio" name="radio-2" type="radio" value="Radio">
+        <label class="w-form-label" for="radio">Facebook</label>
+      </div>
+      <div class="w-radio">
+        <input class="w-radio-input" data-name="Radio 2" id="radio" name="radio-2" type="radio" value="Radio">
+        <label class="w-form-label" for="radio">Twitter</label>
+      </div>
+      <div class="w-radio">
+        <input class="w-radio-input" data-name="Radio 2" id="radio" name="radio-2" type="radio" value="Radio">
+        <label class="w-form-label" for="radio">Amigo</label>
+      </div>
+      <div class="w-radio">
+        <input class="w-radio-input" data-name="Radio 2" id="radio" name="radio-2" type="radio" value="Radio">
+        <label class="w-form-label" for="radio">Otro</label>
+      </div>
+      <input class="w-button" data-wait="Please wait..." type="submit" value="Registrarse">
+    </form>
+    <div class="w-form-done">
+      <div>Thank you! Your submission has been received!</div>
+    </div>
+    <div class="w-form-fail">
+      <div>Oops! Something went wrong while submitting the form</div>
+    </div>
+  </div>
+</body>
+</html>
